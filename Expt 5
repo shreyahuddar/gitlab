@@ -1,0 +1,57 @@
+Expt 1:-
+ git config --global user.name "s"
+git config --global user.email "s"
+git config --list
+
+Expt 2:- 
+to merge go back to master branch and merge
+git merge b1
+git branch --merged
+git branch --no-merged
+ 
+Expt 3:-
+git log --oneline
+go back to master branch to cherry pick
+
+Expt 6:-
+git remote add origin <url>
+git push -u origin master
+git pull origin master
+ls
+
+Expt 7:-
+touch add commit
+git tag
+git tag v1
+git tag v7 <commit if>
+git log --oneline
+git tag -d v1
+git tag
+
+git reset --mixed (default)
+git reset --soft <commit id>
+hard
+
+Expt 5:- 
+echo "Hi" > a.txt
+git add and commit
+
+echo "Hello" > a.txt
+git add and commit
+git log --oneline
+git revert HEAD
+git log --oneline
+
+Rebase:-
+create a &b files in master
+and create feature branch and add one file
+go back to master and create one file
+go back to feature branch
+ & give git rebase master
+
+Expt 8:- git stash
+git stash list
+git stash pop/apply
+git stash save "Hi"
+git show show
+git stash clear
